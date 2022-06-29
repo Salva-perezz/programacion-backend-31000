@@ -1,0 +1,1 @@
+import miFunc from './miFunc'
