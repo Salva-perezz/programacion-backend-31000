@@ -63,7 +63,7 @@ const registerStrategy = new LocalStrategy(
       };
 
       const createdUser = await User.create(newUser);
-
+      req.user = username;
       done(null, createdUser);
     } catch (err) {
       console.log("Erro registrando usuario", err);
