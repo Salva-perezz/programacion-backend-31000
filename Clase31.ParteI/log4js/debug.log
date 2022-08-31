@@ -1,0 +1,6 @@
+[2022-08-30T20:32:01.663] [INFO] prod - Servidor express escuchando en el puerto 3000
+[2022-08-30T20:32:41.509] [INFO] prod - Parámetros 20 y 20 correctos para la suma
+[2022-08-30T20:32:55.621] [ERROR] prod - Parámetros incorrectos para la suma
+[2022-08-30T20:33:19.347] [WARN] prod - Ruta GET /sumarr?n1=20&n2=hola no implementada
+[2022-08-30T20:33:47.598] [INFO] prod - Servidor express escuchando en el puerto 3000
+[2022-08-30T20:34:25.336] [INFO] prod - Servidor express escuchando en el puerto 3000

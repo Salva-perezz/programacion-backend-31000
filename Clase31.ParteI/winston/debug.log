@@ -1,0 +1,4 @@
+{"level":"info","message":"Servidor express escuchando en el puerto 3000"}
+{"level":"error","message":"Parámetros incorrectos para la suma"}
+{"level":"info","message":"Parámetros 20 y 20 correctos para la suma"}
+{"level":"warn","message":"Ruta GET /sumear?n1=20&n2=20 no implementada"}
