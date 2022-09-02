@@ -1,0 +1,16 @@
+{
+  "name": "appNode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "node benchmark.js",
+    "start": "node --inspect server.js && curl -X GET 'http://localhost:8080/newUser?username=marian&password=qwerty123'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
