@@ -1,6 +1,6 @@
 const express = require("express");
 const exphbs = require("express-handlebars");
-const bcrypt = require("bcrypt");
+const  = require("bcrypt");
 const session = require("express-session");
 const passport = require("passport");
 const LocalStrategy = require("passport-local").Strategy;
