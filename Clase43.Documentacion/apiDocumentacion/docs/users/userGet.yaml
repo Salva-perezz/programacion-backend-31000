@@ -1,0 +1,15 @@
+paths:
+  /user:
+    get:
+      summary: Return stored numbers
+      tags:
+        - User
+      responses:
+        200:
+          description: Array of numbers
+          content:
+            application/json:
+              schemas:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Number"
